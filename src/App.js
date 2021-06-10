@@ -7,10 +7,10 @@ import End from './components/End';
 import Modal from './components/Modal';
 import quizData from './data/quiz.json';
 
-let interval;
+  let interval;
 
 const App = () => {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(2);
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [showModal, setShowModal] = useState(false);
